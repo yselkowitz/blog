@@ -1,4 +1,13 @@
 title: Yaakov's blog
-description: Packaging (mis)adventures across Fedora Linux and open source software
+description: >-
+  Packaging (mis)adventures across Fedora Linux and open source software
 author: Yaakov Selkowitz
-theme: jekyll-theme-hacker
+github_username:  yselkowitz
+linkedin_username: yselkowitz
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+minima:
+  skin: dark
+  date_format: "%d %b %Y"
