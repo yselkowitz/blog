@@ -1,13 +1,20 @@
 title: Yaakov's blog
 description: >-
   Packaging (mis)adventures across Fedora Linux and open source software
-author: Yaakov Selkowitz
-github_username:  yselkowitz
-linkedin_username: yselkowitz
+author:
+  name: Yaakov Selkowitz
+#  email:
+
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 minima:
-  skin: dark
+  skin: auto
   date_format: "%d %b %Y"
+  social_links:
+    - { platform: github,   user_url: "https://github.com/yselkowitz/" }
+    - { platform: gitlab,   user_url: "https://gitlab.com/yselkowitz1/" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/yselkowitz/" }
