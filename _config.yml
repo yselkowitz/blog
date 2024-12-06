@@ -5,11 +5,15 @@ author:
   name: Yaakov Selkowitz
 #  email:
 
+header_pages:
+  - sources.md
+
 # Build settings
 #theme: minima
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-remote-theme
 minima:
   skin: auto
