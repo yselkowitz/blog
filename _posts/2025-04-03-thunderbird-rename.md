@@ -8,7 +8,7 @@ layout: post
 
 A change in Fedora's [thunderbird RPM package](https://src.fedoraproject.org/rpms/thunderbird/c/8e08ed42a33c661d8c122e30b2d4dd2ec399187b) a few months ago led to some issues with the Fedora Flatpak thereof, not only in Software/Discover but also in desktop usage, such as windows not being associated with their desktop icon.  For instance, in KDE Plasma, a generic Wayland icon would be shown on the Task Manager bar even if the Thunderbird desktop menu entry was pinned.
 
-I have taken the F42 update as an opportunity to fix that, but there are caveats.  Users should get upgraded to the new name automatically, but when starting the app afterwards, it will look like you need to start over configuring your email accounts and so on.  However, with a little manual intervention, this can be avoided.
+I have taken the Fedora 42 update going stable tonight as an opportunity to fix that, but there are caveats.  Users should get upgraded to the new name automatically, but when starting the app afterwards, it will look like you need to start over configuring your email accounts and so on.  However, with a little manual intervention, this can be avoided.
 
 If you have already reconfigured your accounts and are happy with the results (just not with the effort involved), then there is nothing more to do except to understand what happened and why it was ultimately necessary.  Unfortunately we have no reliable way of letting users know about changes such as this.
 
